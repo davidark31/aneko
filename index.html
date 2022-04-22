@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Aneko</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="conteiner conteiner--flex">
+            <div class="main-header__conteiner">
+                <h1 class="main-header__tittle">Aneko</h1>
+                <span class="icon-menu fa-solid fa-bars" id="btn-menu"></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item">Inicio <a href="" class="menu__item"></a></li>
+                        <li class="menu__item">Acerca<a href="" class="menu__item"></a></li>
+                        <li class="menu__item">Caracteristicas<a href="" class="menu__item"></a></li>
+                        <li class="menu__item">Compras<a href="" class="menu__item"></a></li>
+                        <li class="menu__item">Contacto<a href="" class="menu__item"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__conteiner">
+                <span class="main-header__txt"> Necesitas ayuda</span>
+                <p class="main-header__txt"><i class="fa-brands fa-whatsapp"></i> +569 79733070</p>
+            </div>
+            <div class="main-header__conteiner">
+                <i class="fa-solid fa-user"></i>
+                <a href="" class="main-header__btn">Mi carro<i class="fa-solid fa-cart-shopping"></i></a>
+                <input type="search" placeholder="Buscar producto" class="main-header__input" /><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img/slider1.jpg" class="slider__img" />
+                <div class="slider__content">
+                    <h2 class="slider__title">Tazónes sublimados</h2>
+                    <p class="slider__txt">50% de descuento</p>
+                    <a href="" class="slider__btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/slider2.jpg" class="slider__img" />
+                <div class="slider__content">
+                    <h2 class="slider__title">Tazónes Dorados sublimados</h2>
+                    <p class="slider__txt">$3.000</p>
+                    <a href="" class="slider__btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/slider3.jpg" class="slider__img" />
+                <div class="slider__content">
+                    <h2 class="slider__title">Tazónes sublimados día de las madres</h2>
+                    <p class="slider__txt">20% de descuento</p>
+                    <a href="" class="slider__btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/slider4.jpg" class="slider__img" />
+                <div class="slider__content">
+                    <h2 class="slider__title">Shoperos sublimados</h2>
+                    <p class="slider__txt">30% de descuento</p>
+                    <a href="" class="slider__btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--righ" id="slider__btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="slider__btn-left">&#60;</div>
+    </div>
+    <main class="main">
+        <h2>Nuevos Tazones</h2>
+        <section class="conteiner-product">
+            <div class="product"></div>
+        </section>
+    </main>
+    <script type="text/javascript" src="javascript/codigo.js"></script>
+    <script type="text/javascript" src="javascript/slider.js"></script>
+</body>
+</html>
